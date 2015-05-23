@@ -1,0 +1,78 @@
+2015-05-23 12:00:59,503 - [INFO] - from play in pool-6-thread-2 
+Listening for HTTP on /0:0:0:0:0:0:0:0%0:9000
+
+2015-05-23 12:01:11,756 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:mysql://localhost:3306/notification_engine
+
+2015-05-23 12:01:11,853 - [INFO] - from org.reflections.Reflections in play-internal-execution-context-1 
+Reflections took 51 ms to scan 2 urls, producing 16 keys and 31 values 
+
+2015-05-23 12:01:12,164 - [INFO] - from com.avaje.ebeaninternal.server.core.DefaultServerFactory in play-internal-execution-context-1 
+DatabasePlatform name:default platform:mysql
+
+2015-05-23 12:01:12,353 - [INFO] - from com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager in play-internal-execution-context-1 
+Entities enhanced[3] subclassed[0]
+
+2015-05-23 12:01:13,168 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2015-05-23 12:01:13,419 - [INFO] - from akka.event.slf4j.Slf4jLogger in play-akka.actor.default-dispatcher-3 
+Slf4jLogger started
+
+2015-05-23 12:01:13,556 - [INFO] - from com.twilio.sdk.resource.instance.Application in play-akka.actor.default-dispatcher-5 
+Sending call request: [To=17734845887, From=+17084876341, Url=http://41d56779.ngrok.io/voice, StatusCallback=http://41d56779.ngrok.io/callstatus]
+
+2015-05-23 12:01:44,971 - [INFO] - from org.hibernate.validator.internal.util.Version in play-akka.actor.default-dispatcher-4 
+HV000001: Hibernate Validator 5.0.1.Final
+
+2015-05-23 12:03:55,760 - [INFO] - from com.jolbox.bonecp.BoneCP in play-internal-execution-context-1 
+Shutting down connection pool...
+
+2015-05-23 12:03:55,806 - [INFO] - from com.jolbox.bonecp.BoneCP in play-internal-execution-context-1 
+Connection pool has been shutdown.
+
+2015-05-23 12:03:55,951 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:mysql://localhost:3306/notification_engine
+
+2015-05-23 12:03:55,980 - [INFO] - from org.reflections.Reflections in play-internal-execution-context-1 
+Reflections took 29 ms to scan 2 urls, producing 16 keys and 31 values 
+
+2015-05-23 12:03:55,996 - [INFO] - from com.avaje.ebeaninternal.server.core.DefaultServerFactory in play-internal-execution-context-1 
+DatabasePlatform name:default platform:mysql
+
+2015-05-23 12:03:56,018 - [INFO] - from com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager in play-internal-execution-context-1 
+Entities enhanced[3] subclassed[0]
+
+2015-05-23 12:03:56,019 - [WARN] - from com.avaje.ebean.Ebean in play-internal-execution-context-1 
+Existing EbeanServer [default] is being replaced?
+
+2015-05-23 12:03:56,037 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2015-05-23 12:03:56,044 - [INFO] - from com.twilio.sdk.resource.instance.Application in play-akka.actor.default-dispatcher-2 
+Sending call request: [To=17734845887, From=+17084876341, Url=http://41d56779.ngrok.io/voice, StatusCallback=http://41d56779.ngrok.io/callstatus]
+
+2015-05-23 12:04:09,534 - [INFO] - from com.jolbox.bonecp.BoneCP in play-internal-execution-context-1 
+Shutting down connection pool...
+
+2015-05-23 12:04:09,536 - [INFO] - from com.jolbox.bonecp.BoneCP in play-internal-execution-context-1 
+Connection pool has been shutdown.
+
+2015-05-23 12:04:09,676 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:mysql://localhost:3306/notification_engine
+
+2015-05-23 12:04:09,693 - [INFO] - from org.reflections.Reflections in play-internal-execution-context-1 
+Reflections took 16 ms to scan 2 urls, producing 16 keys and 31 values 
+
+2015-05-23 12:04:09,709 - [INFO] - from com.avaje.ebeaninternal.server.core.DefaultServerFactory in play-internal-execution-context-1 
+DatabasePlatform name:default platform:mysql
+
+2015-05-23 12:04:09,732 - [INFO] - from com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager in play-internal-execution-context-1 
+Entities enhanced[3] subclassed[0]
+
+2015-05-23 12:04:09,734 - [WARN] - from com.avaje.ebean.Ebean in play-internal-execution-context-1 
+Existing EbeanServer [default] is being replaced?
+
+2015-05-23 12:04:09,752 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
