@@ -90,4 +90,17 @@ public abstract class AbstractNotification extends Model implements Notification
             String.class, AbstractNotification.class
     );
 
+
+    @Override
+    public String toString() {
+        return "Notification{" +
+                "fromNumber='" + fromNumber + '\'' +
+                ", toNumber='" + toNumber + '\'' +
+                ", createdAt=" + createdAt +
+                ", updatedAt=" + updatedAt +
+                ", content='" + content + '\'' +
+                ", status='" + status + '\'' +
+                ", id='" + id + '\'' +
+                '}';
+    }
 }

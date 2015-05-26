@@ -145,6 +145,8 @@ public class Application extends Controller {
      * @return ok after message is processed. 
      *
      *
+     * curl --verbose --data "SmsSid=SM516c2560524847108d84b366119ce673&SmsStatus=manual" http://42a2173c.ngrok.io/status
+     *
      **/
     public static Result status(){
         DynamicForm df = play.data.Form.form().bindFromRequest();

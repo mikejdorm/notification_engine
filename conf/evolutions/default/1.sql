@@ -17,8 +17,6 @@ create table messages (
 ;
 
 
-
-
 # --- !Downs
 
 SET FOREIGN_KEY_CHECKS=0;
