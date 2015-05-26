@@ -11,7 +11,7 @@ twilio.accountSid
 
 The Twilio authentication token supplied by Twilio for the account being used:
 
-twilio.authToken=
+twilio.authToken
 
 
 A callback address for status updates from the Twilio API:
