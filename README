@@ -14,7 +14,7 @@ The Twilio authentication token supplied by Twilio for the account being used:
 twilio.authToken=
 
 
-A callback address for status updates from the application:
+A callback address for status updates from the Twilio API:
 
 twilio.callbackAddress="http://42a2173c.ngrok.io"
 
