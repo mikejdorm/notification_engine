@@ -23,6 +23,11 @@ A) Update the following attributes in the application.conf file.
     db.default.driver="com.mysql.jdbc.Driver"
     db.default.user=""
     db.default.pass=""
+    
+  5) Update the conf to include the Twilio numbers setup for the account. Below are two examples. 
+     The numbers should be included in an array with the "+" prepended. 
+  
+      twilio.twilioNumbers=[ "+17084876341","+15005550006" ]
 
 B) After updating the application.conf file run the file conf/updated_schema.sql.
 
