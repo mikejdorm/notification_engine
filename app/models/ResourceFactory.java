@@ -87,6 +87,7 @@ public final class ResourceFactory {
             ArrayList<NameValuePair> params = baseParams(notification);
             params.add(new BasicNameValuePair("Url", VOICE_XML_URL ));
             params.add(new BasicNameValuePair("StatusCallback", CALL_STATUS_URL));
+            params.add(new BasicNameValuePair("Method", "GET"));
             logger.info("Sending call request: " + Arrays.toString(params.toArray()));
             return callFactory.create(params);
         }

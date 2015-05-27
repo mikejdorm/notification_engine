@@ -49,7 +49,7 @@ public class Application extends Controller {
      *
      */
     public static final List<String> FROM_NUMBERS = play.Play.application().configuration().getStringList("twilio.twilioNumbers");
-    public static final String PHONE_GREETING = play.Play.application().configuration().getString("phoneGreeting");
+    public static final String PHONE_GREETING = play.Play.application().configuration().getString("twilio.phoneGreeting");
     /**
      *
      * The iterables.cycle iterator cycles through a list indefinitely. The benefit of this is if a large
@@ -100,7 +100,7 @@ public class Application extends Controller {
     public static Result voice() throws TwiMLException {
         TwiMLResponse response = new TwiMLResponse();
         Say message = new Say(PHONE_GREETING);
-        message.setVoice("woman");
+        message.setVoice("alice");
         response.append(message);
         response().setContentType("text/xml");
         return ok(response.toXML());
