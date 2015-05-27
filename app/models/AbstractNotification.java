@@ -32,6 +32,7 @@ public abstract class AbstractNotification extends Model implements Notification
     private Timestamp createdAt;
 
     @Column(name="updated_at")
+    @Version
     private Timestamp updatedAt;
 
     //note: only supported in mysql 5.0.3 and after
