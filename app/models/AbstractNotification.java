@@ -29,13 +29,9 @@ public abstract class AbstractNotification extends Model implements Notification
     public String accountId;
 
     @Column(name="created_at")
-    @Formats.DateTime(pattern="MM/DD/YY HH24:MI:SS.ff3")
-    @CreatedTimestamp
     private Timestamp createdAt;
 
     @Column(name="updated_at")
-    @Formats.DateTime(pattern="MM/DD/YY HH24:MI:SS.ff3")
-    @UpdatedTimestamp
     private Timestamp updatedAt;
 
     //note: only supported in mysql 5.0.3 and after
