@@ -1,8 +1,0 @@
-[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
-[0m[[0mdebug[0m] [0m	(/Users/michaeldorman/Desktop/notification_engine/conf/application.conf,/Users/michaeldorman/Desktop/notification_engine/target/scala-2.10/classes/application.conf)[0m
-[0m[[0mdebug[0m] [0m	(/Users/michaeldorman/Desktop/notification_engine/conf/call_message.xml,/Users/michaeldorman/Desktop/notification_engine/target/scala-2.10/classes/call_message.xml)[0m
-[0m[[0mdebug[0m] [0m	(/Users/michaeldorman/Desktop/notification_engine/conf/create_schema.sql,/Users/michaeldorman/Desktop/notification_engine/target/scala-2.10/classes/create_schema.sql)[0m
-[0m[[0mdebug[0m] [0m	(/Users/michaeldorman/Desktop/notification_engine/conf/evolutions,/Users/michaeldorman/Desktop/notification_engine/target/scala-2.10/classes/evolutions)[0m
-[0m[[0mdebug[0m] [0m	(/Users/michaeldorman/Desktop/notification_engine/conf/routes,/Users/michaeldorman/Desktop/notification_engine/target/scala-2.10/classes/routes)[0m
-[0m[[0mdebug[0m] [0m	(/Users/michaeldorman/Desktop/notification_engine/conf/evolutions/default,/Users/michaeldorman/Desktop/notification_engine/target/scala-2.10/classes/evolutions/default)[0m
-[0m[[0mdebug[0m] [0m	(/Users/michaeldorman/Desktop/notification_engine/conf/evolutions/default/1.sql,/Users/michaeldorman/Desktop/notification_engine/target/scala-2.10/classes/evolutions/default/1.sql)[0m

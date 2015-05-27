@@ -22,8 +22,6 @@ public interface Notification {
 
     public void setAccountId(String accountId);
 
-    //public void setContact(Contact contact);
-
     public void setContent(String content) throws Exception;
 
     public void setStatus(String status);
