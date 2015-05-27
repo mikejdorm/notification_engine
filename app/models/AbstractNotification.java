@@ -77,6 +77,9 @@ public abstract class AbstractNotification extends Model implements Notification
     }
 
     @Override
+    public String getId(){ return this.id; }
+
+    @Override
     public String getToNumber() {return this.toNumber; }
 
     @Override

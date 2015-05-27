@@ -28,6 +28,8 @@ public interface Notification {
 
     public String getToNumber();
 
+    public String getId();
+
     public String getFromNumber();
 
     public String getContent();
