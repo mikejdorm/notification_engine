@@ -1,35 +1,30 @@
-Notification Engine
+Running the project: 
 
-Running the project.
+Update the following attributes in the application.conf file.
 
-Change the following attributes in the application.conf file.
+1) The Twilio Account ID for using the Twilio API:
 
-The Twilio Account ID for using the Twilio API:
-
-twilio.accountSid
+  twilio.accountSid
 
 
-The Twilio authentication token supplied by Twilio for the account being used:
+2) The Twilio authentication token supplied by Twilio for the account being used:
 
-twilio.authToken
-
-
-A callback address for status updates from the Twilio API:
-
-twilio.callbackAddress="http://42a2173c.ngrok.io"
-
-Note: this will be the base URL for the application.For testing purposes,
-ngrok was used to create an address (https://ngrok.com/).
+  twilio.authToken
 
 
-Update the database configurations to the database being used.
+3) Provide a callback address for status updates from the Twilio API:
 
-db.default.url="jdbc:mysql://localhost:3306/notification_engine"
-db.default.driver="com.mysql.jdbc.Driver"
-db.default.user="[CHANGE_ME]"
-db.default.pass="CHANGE_ME"
+  twilio.callbackAddress="http://42a2173c.ngrok.io"
+
+  Note: this will be the base URL for the application. For testing purposes,
+  ngrok was used to create an address (https://ngrok.com/).
+
+4) Update the database configurations to the database being used.
+
+  db.default.url="jdbc:mysql://localhost:3306/notification_engine"
+  db.default.driver="com.mysql.jdbc.Driver"
+  db.default.user=""
+  db.default.pass=""
 
 
-After updating the application.conf file run the file conf/updated_schema.sql.
-
-Evolutions can also be used to update the schema - a evolution file is provided as conf/evolutions.default/1.sql
+After updating the application.conf file run the file conf/updated_schema.sql. Evolutions can also be used to update the schema - a evolution file is provided as conf/evolutions.default/1.sql
