@@ -1,30 +1,34 @@
 Running the project: 
 
-Update the following attributes in the application.conf file.
+A) Update the following attributes in the application.conf file.
 
-1) The Twilio Account ID for using the Twilio API:
+  1) The Twilio Account ID for using the Twilio API:
+  
+    twilio.accountSid
+  
+  2) The Twilio authentication token supplied by Twilio for the account being used:
+  
+    twilio.authToken
+  
+  3) Provide a callback address for status updates from the Twilio API:
+  
+    twilio.callbackAddress="http://42a2173c.ngrok.io"
+  
+    Note: this will be the base URL for the application. For testing purposes,
+    ngrok was used to create an address (https://ngrok.com/).
+  
+  4) Update the database configurations to the database being used.
+  
+    db.default.url="jdbc:mysql://localhost:3306/notification_engine"
+    db.default.driver="com.mysql.jdbc.Driver"
+    db.default.user=""
+    db.default.pass=""
+    
+  5) Update the conf to include the Twilio numbers setup for the account. Below are two examples. 
+     The numbers should be included in an array with the "+" prepended. 
+  
+      twilio.twilioNumbers=[ "+17084876341","+15005550006" ]
 
-  twilio.accountSid
+B) After updating the application.conf file run the file conf/updated_schema.sql.
 
-
-2) The Twilio authentication token supplied by Twilio for the account being used:
-
-  twilio.authToken
-
-
-3) Provide a callback address for status updates from the Twilio API:
-
-  twilio.callbackAddress="http://42a2173c.ngrok.io"
-
-  Note: this will be the base URL for the application. For testing purposes,
-  ngrok was used to create an address (https://ngrok.com/).
-
-4) Update the database configurations to the database being used.
-
-  db.default.url="jdbc:mysql://localhost:3306/notification_engine"
-  db.default.driver="com.mysql.jdbc.Driver"
-  db.default.user=""
-  db.default.pass=""
-
-
-After updating the application.conf file run the file conf/updated_schema.sql. Evolutions can also be used to update the schema - a evolution file is provided as conf/evolutions.default/1.sql
+After making the updates above, the application should execute from the command line using "play run". 
